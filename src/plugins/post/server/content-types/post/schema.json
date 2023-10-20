@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "content-manager": { 
+      "visible": false
+    },
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLentgh": 40,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": false,
+      "maxLentgh": 400
+    },
+    "isDone": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
