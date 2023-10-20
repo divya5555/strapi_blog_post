@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_project=self.webpackChunkblog_project||[]).push([[2492],{63252:(a,t,e)=>{e.r(t),e.d(t,{default:()=>o});var s=e(67294),E=e(30972),n=e(86706),_=e(36364),r=e(43467);const o=()=>{const P=(0,n.v9)(_._);return s.createElement(E.O4,{permissions:P.settings["transfer-tokens"].read},s.createElement(r.Z,null))}}}]);
